@@ -1,0 +1,9 @@
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\bin\Debug\Projekt_C.exe.config
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\bin\Debug\Projekt_C.exe
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\bin\Debug\Projekt_C.pdb
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.csprojAssemblyReference.cache
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.Properties.Resources.resources
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.csproj.GenerateResource.cache
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.csproj.CoreCompileInputs.cache
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.exe
+C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.pdb
