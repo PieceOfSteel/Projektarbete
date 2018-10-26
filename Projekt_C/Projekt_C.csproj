@@ -47,12 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Domain\Category.cs" />
+    <Compile Include="Core\Domain\EntityBase.cs" />
     <Compile Include="Core\Domain\PodcastEpisode.cs" />
     <Compile Include="Core\Domain\PodcastFeed.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
-    <Compile Include="Core\Repositories\ICategoryRepository.cs" />
-    <Compile Include="Core\Repositories\IFeedRepository.cs" />
-    <Compile Include="Core\Repositories\IPersistent.cs" />
+    <Compile Include="Core\Repositories\CategoryRepository.cs" />
+    <Compile Include="Core\Repositories\FeedRepository.cs" />
     <Compile Include="Core\Repositories\IRepository.cs" />
     <Compile Include="Core\Utilities\Alert.cs" />
     <Compile Include="Core\Utilities\InputValidator.cs" />

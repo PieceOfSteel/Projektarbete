@@ -1,10 +1,12 @@
-﻿namespace Projekt_C.Persistence.Repositories
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Projekt_C.Persistence.Repositories
 {
-    public class CategoryRepository : Repository
+    class CategoryRepository
     {
-        public CategoryRepository(string path)
-        {
-            this.Path = path;
-        }
     }
 }
