@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Projekt_C.Core;
+using Projekt_C.Persistence.Repositories;
+using System;
 
 namespace Projekt_C.Persistence
 {
-    class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
+        public CategoryRepository Category => throw new NotImplementedException();
+
+        public FeedRepository Feed => throw new NotImplementedException();
     }
 }
