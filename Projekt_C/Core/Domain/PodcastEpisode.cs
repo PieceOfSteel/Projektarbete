@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projekt_C.Core.Domain
 {
-    class PodcastEpisode : EntityBase
+    public class PodcastEpisode : EntityBase
     {
         /* Inherited:
         public int Id { get; set; }

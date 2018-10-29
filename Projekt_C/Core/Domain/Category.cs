@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace Projekt_C.Core.Domain
 {
-    class Category : EntityBase
+    public class Category : EntityBase, IPersistent
     {
         /* Inherited:
         public int Id { get; set; }
         public string Name { get; set; } 
         */
         public List<PodcastFeed> PodcastFeeds { get; }
+
+        public Category()
+        {
+
+        }
 
         public Category(int Id, string Name)
         {

@@ -50,6 +50,7 @@
     <Compile Include="Core\Domain\EntityBase.cs" />
     <Compile Include="Core\Domain\PodcastEpisode.cs" />
     <Compile Include="Core\Domain\PodcastFeed.cs" />
+    <Compile Include="Core\IPersistent.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repositories\CategoryRepository.cs" />
     <Compile Include="Core\Repositories\FeedRepository.cs" />
@@ -91,6 +92,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Categories.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
