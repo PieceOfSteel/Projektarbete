@@ -7,3 +7,29 @@ C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Deb
 C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.csproj.CoreCompileInputs.cache
 C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.exe
 C:\Users\ander\OneDrive\Skola\C#, .NET\Projektarbete\Projekt_C\Projekt_C\obj\Debug\Projekt_C.pdb
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\bin\Debug\Categories.xml
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\bin\Debug\Projekt_C.exe.config
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\bin\Debug\Projekt_C.exe
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\bin\Debug\Projekt_C.pdb
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\obj\Debug\Projekt_C.csprojAssemblyReference.cache
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\obj\Debug\Projekt_C.Properties.Resources.resources
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\obj\Debug\Projekt_C.csproj.GenerateResource.cache
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\obj\Debug\Projekt_C.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\obj\Debug\Projekt_C.exe
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\obj\Debug\Projekt_C.pdb
+C:\Users\Simon\Desktop\Projektarbete-master\Projekt_C\obj\Debug\Projekt_C.Form1.resources
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\bin\Debug\Categories.xml
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\bin\Debug\Projekt_C.exe.config
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\bin\Debug\Projekt_C.exe
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\bin\Debug\Projekt_C.pdb
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.csprojAssemblyReference.cache
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.Form1.resources
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.Properties.Resources.resources
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.csproj.GenerateResource.cache
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.csproj.CoreCompileInputs.cache
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.exe
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.pdb
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\bin\Debug\MetroFramework.Design.dll
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\bin\Debug\MetroFramework.dll
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\bin\Debug\MetroFramework.Fonts.dll
+D:\Skola\Projektarbete-Csharp\Projektarbete-gren\Projekt_C\obj\Debug\Projekt_C.csproj.CopyComplete
