@@ -23,69 +23,37 @@ namespace Projekt_C
             {
                 var reader = XmlReader.Create(txtBoxUrl.Text);
                 var feed = SyndicationFeed.Load(reader);
+
                 var feedTab = new TabPage(feed.Title.Text); //hämta från xml ist?
 
                 tabCtrlFeeds.TabPages.Add(feedTab);
 
                 var feedList = new ListBox();
+                feedList.Dock = DockStyle.Fill;
 
                 feedTab.Controls.Add(feedList);
-                feedList.Dock = DockStyle.Fill;
+                
 
                 foreach (SyndicationItem feedItem in feed.Items)
                 {
-
-
                     //spara till XMLfil?
                     feedList.Items.Add(feedItem.Title.Text);
-                    feedList.Items.Add(feedItem.Summary.Text);
-                    feedList.Items.Add("---------");
+                    
                 }
             }
             catch (Exception)
             {
 
-                throw;
+              
             }
            
 
            
         }
-        private string GetFeedfromUrl(string url)
-        {
-            var reader = XmlReader.Create(txtBoxUrl.Text);
-            var feed = SyndicationFeed.Load(reader);
-            var feedTab = new TabPage(feed.Title.Text); //hämta från xml ist?
+       
 
-            try
-            {
-                tabCtrlFeeds.TabPages.Add(feedTab);
-
-                var feedList = new ListBox();
-
-                feedTab.Controls.Add(feedList);
-
-                feedList.Dock = DockStyle.Fill;
-
-                foreach (SyndicationItem feedItem in feed.Items)
-                {
-
-
-                    //spara till XMLfil?
-                    feedList.Items.Add(feedItem.Title.Text);
-                    feedList.Items.Add(feedItem.Summary.Text);
-                    feedList.Items.Add("---------");
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-            return feed.ToString();
+            
             
         }
 
-    }
 }

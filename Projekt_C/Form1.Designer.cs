@@ -55,6 +55,7 @@
             this.txtBoxUrl.Name = "txtBoxUrl";
             this.txtBoxUrl.Size = new System.Drawing.Size(117, 20);
             this.txtBoxUrl.TabIndex = 0;
+            this.txtBoxUrl.Text = "http://feeds.noodle.mx/TheAudacitytoPodcast-mp3";
             // 
             // lblUrl
             // 
