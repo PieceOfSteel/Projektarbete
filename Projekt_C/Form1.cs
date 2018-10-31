@@ -11,49 +11,49 @@ namespace Projekt_C
 {
     public partial class Form1 : MetroForm
     {
+        private TabPage feedTab;
+        private SyndicationFeed feed;
+
         public Form1()
         {
             InitializeComponent();
+            var reader = XmlReader.Create(txtBoxUrl.Text);
+            feed = SyndicationFeed.Load(reader);
+            feedTab = new TabPage(feed.Title.Text);
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-          
             try
             {
-                var reader = XmlReader.Create(txtBoxUrl.Text);
-                var feed = SyndicationFeed.Load(reader);
-
-                var feedTab = new TabPage(feed.Title.Text); //hämta från xml ist?
-
                 tabCtrlFeeds.TabPages.Add(feedTab);
-
-                var feedList = new ListBox();
-                feedList.Dock = DockStyle.Fill;
-
-                feedTab.Controls.Add(feedList);
-                
-
-                foreach (SyndicationItem feedItem in feed.Items)
-                {
-                    //spara till XMLfil?
-                    feedList.Items.Add(feedItem.Title.Text);
-                    
-                }
+                CreateFeedList();
             }
             catch (Exception)
             {
-
               
             }
-           
-
-           
         }
-       
+        
+        public void CreateFeedList()
+        {
+            var feedList = new ListBox();
+            feedList.Dock = DockStyle.Fill;
+            feedTab.Controls.Add(feedList);
 
-            
-            
+            foreach (SyndicationItem feedItem in feed.Items)
+            {
+                //spara till XMLfil?
+                feedList.Items.Add(feedItem.Title.Text);
+
+            }d
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
+          
+
