@@ -22,7 +22,6 @@ namespace Projekt_C.Core.Domain
             this.Name = Name;
             this.Url = Url;
             PodcastEpisodes = new List<PodcastEpisode>();
-
         }
 
         public override string GetInfo(string sep = "\t")
