@@ -11,7 +11,7 @@ namespace Projekt_C.Core.Utilities
     {
         internal static void IdTaken()
         {
-            MessageBox.Show("An item with the given id already exists. Try a different id");
+            MessageBox.Show("An item with the given id already exists.");
         }
     }
 }
