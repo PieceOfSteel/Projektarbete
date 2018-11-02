@@ -16,6 +16,11 @@ namespace Projekt_C.Core.Domain
         public int UpdateInterval { get; set; }
         public List<PodcastEpisode> PodcastEpisodes { get; set; }
 
+        public PodcastFeed()
+        {
+            PodcastEpisodes = new List<PodcastEpisode>();
+        }
+
         public PodcastFeed(int Id, string Name, string Url)
         {
             this.Id = Id;

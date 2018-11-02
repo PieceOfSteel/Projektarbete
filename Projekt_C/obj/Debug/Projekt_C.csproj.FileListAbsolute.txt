@@ -45,3 +45,17 @@ C:\Users\Simon\Desktop\Projektarbete-provarbara\Projekt_C\bin\Debug\Projekt_C.ex
 C:\Users\Simon\Desktop\Projektarbete-provarbara\Projekt_C\bin\Debug\Projekt_C.exe
 C:\Users\Simon\Desktop\Projektarbete-provarbara\Projekt_C\bin\Debug\Projekt_C.pdb
 C:\Users\Simon\Desktop\Projektarbete-provarbara\Projekt_C\obj\Debug\Projekt_C.csproj.CopyComplete
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\bin\Debug\Categories.xml
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\bin\Debug\Projekt_C.exe.config
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\bin\Debug\Projekt_C.exe
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\bin\Debug\Projekt_C.pdb
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.csprojAssemblyReference.cache
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.Form1.resources
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.Properties.Resources.resources
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.csproj.GenerateResource.cache
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.csproj.CopyComplete
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.exe
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.pdb
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.UIchangeCategory.resources
+C:\Users\Simon\Desktop\Projektarbete-anders-31-10\Projekt_C\obj\Debug\Projekt_C.UIChangeFeed.resources

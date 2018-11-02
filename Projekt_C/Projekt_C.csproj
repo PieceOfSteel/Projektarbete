@@ -57,10 +57,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UIchangeCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIchangeCategory.Designer.cs">
+      <DependentUpon>UIchangeCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIChangeFeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIChangeFeed.Designer.cs">
+      <DependentUpon>UIChangeFeed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Core\Domain\Category.cs" />
     <Compile Include="Core\Domain\EntityBase.cs" />
     <Compile Include="Core\Domain\PodcastEpisode.cs" />
     <Compile Include="Core\Domain\PodcastFeed.cs" />
+    <Compile Include="Core\Domain\Rss.cs" />
     <Compile Include="Core\IPersistent.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repositories\CategoryRepository.cs" />
@@ -68,6 +81,7 @@
     <Compile Include="Core\Repositories\IRepository.cs" />
     <Compile Include="Core\Utilities\Alert.cs" />
     <Compile Include="Core\Utilities\InputValidator.cs" />
+    <Compile Include="Core\Utilities\RssParser.cs" />
     <Compile Include="Core\Utilities\WebFetcher.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -81,6 +95,12 @@
     <Compile Include="Persistence\UnitOfWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UIchangeCategory.resx">
+      <DependentUpon>UIchangeCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIChangeFeed.resx">
+      <DependentUpon>UIChangeFeed.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
