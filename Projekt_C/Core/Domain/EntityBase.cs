@@ -17,5 +17,10 @@ namespace Projekt_C.Core.Domain
             string Info = "Id: " + Id + sep + "Name: " + Name;
             return Info;
         }
+
+        protected virtual void CreateId()
+        {
+            Id = 0;
+        }
     } 
 }

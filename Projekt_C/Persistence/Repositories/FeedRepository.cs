@@ -63,6 +63,15 @@ namespace Projekt_C.Persistence.Repositories
             XmlNode urlNode = doc.CreateElement("Url");
             urlNode.AppendChild(doc.CreateTextNode(obj.Url));
 
+            XmlNode categoryNode = doc.CreateElement("Category");
+            categoryNode.AppendChild(doc.CreateTextNode(obj.Category.Name));
+            feedNode.AppendChild(categoryNode);
+
+            XmlNode frequencyNode = doc.CreateElement("UpdateInterval");
+            frequencyNode.AppendChild(doc.CreateTextNode(obj.UpdateInterval.ToString()));
+            feedNode.AppendChild(frequencyNode);
+
+
             doc.Save(filestream);
             filestream.Close();
             
@@ -118,6 +127,8 @@ namespace Projekt_C.Persistence.Repositories
             podcastFeed.Id = Convert.ToInt32(feed.Attributes("Id"));
             podcastFeed.Name = feed.Descendants("Name").ToString();
             podcastFeed.Url = feed.Descendants("Url").ToString();
+            podcastFeed.Category = new Category { Name = feed.Descendants("Category").ToString() };
+            podcastFeed.UpdateInterval = Convert.ToInt32(feed.Descendants("UpdateInterval"));
             
             filestream.Close();
             return podcastFeed;
@@ -139,9 +150,10 @@ namespace Projekt_C.Persistence.Repositories
 
             var podcastFeed = new PodcastFeed();
             podcastFeed.Id = Convert.ToInt32(feedElement.Attributes("Id"));
-            podcastFeed.Name = feedElement.Elements("Name").ToString();
-            podcastFeed.Url = feedElement.Elements("Url").ToString();
-
+            podcastFeed.Name = feedElement.Descendants("Name").ToString();
+            podcastFeed.Url = feedElement.Descendants("Url").ToString();
+            podcastFeed.Category = new Category { Name = feedElement.Descendants("Category").ToString() };
+            podcastFeed.UpdateInterval = Convert.ToInt32(feedElement.Descendants("UpdateInterval"));
             return podcastFeed;
         }
 
@@ -159,7 +171,7 @@ namespace Projekt_C.Persistence.Repositories
             filestream.Close();
         }
 
-        private int GetFreeId()
+        public int GetFreeId()
         {
             var filestream = new FileStream(Path, FileMode.Open);
             var doc = XDocument.Load(filestream);

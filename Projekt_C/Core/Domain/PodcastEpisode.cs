@@ -13,6 +13,11 @@ namespace Projekt_C.Core.Domain
         public string Name { get; set; } 
         */
 
+        public PodcastEpisode()
+        {
+
+        }
+
         public PodcastEpisode(int Id, string Name)
         {
             this.Id = Id;

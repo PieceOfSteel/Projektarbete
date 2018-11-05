@@ -33,13 +33,13 @@
             this.lblUrl = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtBoxFrequency = new System.Windows.Forms.TextBox();
             this.lblFrequency = new System.Windows.Forms.Label();
             this.grpBoxCategory = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtBoxNewCategory = new System.Windows.Forms.TextBox();
             this.lblNewCategory = new System.Windows.Forms.Label();
             this.btnCategory = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAddCategory = new System.Windows.Forms.Button();
             this.btnChangeCategory = new System.Windows.Forms.Button();
             this.comboBoxShowCategories = new System.Windows.Forms.ComboBox();
             this.btnShowCategory = new System.Windows.Forms.Button();
@@ -50,8 +50,6 @@
             this.lblNameOfFeed = new System.Windows.Forms.Label();
             this.txtBoxNameOfFeed = new System.Windows.Forms.TextBox();
             this.tabCtrlFeeds = new System.Windows.Forms.TabControl();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btnShowFeed = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.grpBoxCategory.SuspendLayout();
             this.SuspendLayout();
@@ -89,10 +87,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.groupBox1.Controls.Add(this.btnShowFeed);
-            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtBoxFrequency);
             this.groupBox1.Controls.Add(this.lblFrequency);
             this.groupBox1.Controls.Add(this.grpBoxCategory);
             this.groupBox1.Controls.Add(this.btnChangeFeed);
@@ -106,7 +102,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBox1.Location = new System.Drawing.Point(20, 60);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(300, 566);
+            this.groupBox1.Size = new System.Drawing.Size(306, 566);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             // 
@@ -120,12 +116,12 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Your feeds";
             // 
-            // textBox1
+            // txtBoxFrequency
             // 
-            this.textBox1.Location = new System.Drawing.Point(140, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(117, 20);
-            this.textBox1.TabIndex = 21;
+            this.txtBoxFrequency.Location = new System.Drawing.Point(140, 173);
+            this.txtBoxFrequency.Name = "txtBoxFrequency";
+            this.txtBoxFrequency.Size = new System.Drawing.Size(117, 20);
+            this.txtBoxFrequency.TabIndex = 21;
             // 
             // lblFrequency
             // 
@@ -138,27 +134,27 @@
             // 
             // grpBoxCategory
             // 
-            this.grpBoxCategory.Controls.Add(this.textBox2);
+            this.grpBoxCategory.Controls.Add(this.txtBoxNewCategory);
             this.grpBoxCategory.Controls.Add(this.lblNewCategory);
             this.grpBoxCategory.Controls.Add(this.btnCategory);
-            this.grpBoxCategory.Controls.Add(this.button1);
+            this.grpBoxCategory.Controls.Add(this.btnAddCategory);
             this.grpBoxCategory.Controls.Add(this.btnChangeCategory);
             this.grpBoxCategory.Controls.Add(this.comboBoxShowCategories);
             this.grpBoxCategory.Controls.Add(this.btnShowCategory);
             this.grpBoxCategory.Controls.Add(this.lblCategories);
             this.grpBoxCategory.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grpBoxCategory.Location = new System.Drawing.Point(3, 352);
+            this.grpBoxCategory.Location = new System.Drawing.Point(3, 298);
             this.grpBoxCategory.Name = "grpBoxCategory";
-            this.grpBoxCategory.Size = new System.Drawing.Size(294, 211);
+            this.grpBoxCategory.Size = new System.Drawing.Size(300, 265);
             this.grpBoxCategory.TabIndex = 19;
             this.grpBoxCategory.TabStop = false;
             // 
-            // textBox2
+            // txtBoxNewCategory
             // 
-            this.textBox2.Location = new System.Drawing.Point(140, 66);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(110, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtBoxNewCategory.Location = new System.Drawing.Point(140, 66);
+            this.txtBoxNewCategory.Name = "txtBoxNewCategory";
+            this.txtBoxNewCategory.Size = new System.Drawing.Size(110, 20);
+            this.txtBoxNewCategory.TabIndex = 8;
             // 
             // lblNewCategory
             // 
@@ -172,21 +168,22 @@
             // btnCategory
             // 
             this.btnCategory.BackColor = System.Drawing.Color.Crimson;
-            this.btnCategory.Location = new System.Drawing.Point(254, 145);
+            this.btnCategory.Location = new System.Drawing.Point(256, 145);
             this.btnCategory.Name = "btnCategory";
             this.btnCategory.Size = new System.Drawing.Size(37, 33);
             this.btnCategory.TabIndex = 6;
             this.btnCategory.Text = "X";
             this.btnCategory.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnAddCategory
             // 
-            this.button1.Location = new System.Drawing.Point(173, 104);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Add category";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Location = new System.Drawing.Point(173, 104);
+            this.btnAddCategory.Name = "btnAddCategory";
+            this.btnAddCategory.Size = new System.Drawing.Size(84, 23);
+            this.btnAddCategory.TabIndex = 5;
+            this.btnAddCategory.Text = "Add category";
+            this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnChangeCategory
             // 
@@ -214,6 +211,7 @@
             this.btnShowCategory.TabIndex = 2;
             this.btnShowCategory.Text = "Show category";
             this.btnShowCategory.UseVisualStyleBackColor = true;
+            this.btnShowCategory.Click += new System.EventHandler(this.btnShowCategory_Click);
             // 
             // lblCategories
             // 
@@ -227,9 +225,9 @@
             // 
             // btnChangeFeed
             // 
-            this.btnChangeFeed.Location = new System.Drawing.Point(28, 306);
+            this.btnChangeFeed.Location = new System.Drawing.Point(176, 258);
             this.btnChangeFeed.Name = "btnChangeFeed";
-            this.btnChangeFeed.Size = new System.Drawing.Size(101, 25);
+            this.btnChangeFeed.Size = new System.Drawing.Size(85, 25);
             this.btnChangeFeed.TabIndex = 10;
             this.btnChangeFeed.Text = "Change Feed";
             this.btnChangeFeed.UseVisualStyleBackColor = true;
@@ -271,28 +269,11 @@
             // tabCtrlFeeds
             // 
             this.tabCtrlFeeds.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabCtrlFeeds.Location = new System.Drawing.Point(320, 60);
+            this.tabCtrlFeeds.Location = new System.Drawing.Point(326, 60);
             this.tabCtrlFeeds.Name = "tabCtrlFeeds";
             this.tabCtrlFeeds.SelectedIndex = 0;
-            this.tabCtrlFeeds.Size = new System.Drawing.Size(551, 566);
+            this.tabCtrlFeeds.Size = new System.Drawing.Size(545, 566);
             this.tabCtrlFeeds.TabIndex = 17;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(137, 279);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 23;
-            // 
-            // btnShowFeed
-            // 
-            this.btnShowFeed.Location = new System.Drawing.Point(27, 277);
-            this.btnShowFeed.Name = "btnShowFeed";
-            this.btnShowFeed.Size = new System.Drawing.Size(99, 23);
-            this.btnShowFeed.TabIndex = 24;
-            this.btnShowFeed.Text = "Show feed";
-            this.btnShowFeed.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -328,15 +309,13 @@
         private System.Windows.Forms.Button btnChangeFeed;
         private System.Windows.Forms.ComboBox comboBoxShowCategories;
         private System.Windows.Forms.Button btnChangeCategory;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAddCategory;
         private System.Windows.Forms.Button btnCategory;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtBoxFrequency;
         private System.Windows.Forms.Label lblFrequency;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtBoxNewCategory;
         private System.Windows.Forms.Label lblNewCategory;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button btnShowFeed;
     }
 }
 

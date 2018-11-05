@@ -13,5 +13,15 @@ namespace Projekt_C.Core.Utilities
         {
             MessageBox.Show("An item with the given id already exists.");
         }
+
+        internal static void CategoryAdded()
+        {
+            MessageBox.Show("Category added");
+        }
+
+        internal static void FieldsNotFilled()
+        {
+            MessageBox.Show("Please fill all required fields");
+        }
     }
 }

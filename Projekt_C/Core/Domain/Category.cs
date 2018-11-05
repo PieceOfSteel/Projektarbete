@@ -16,15 +16,14 @@ namespace Projekt_C.Core.Domain
 
         public Category()
         {
-            PodcastFeeds = new List<PodcastFeed>();
+
         }
 
         public Category(int Id, string Name)
-            : this()
         {
             this.Id = Id;
             this.Name = Name;
-            
+            PodcastFeeds = new List<PodcastFeed>();
         }
     }
 }
