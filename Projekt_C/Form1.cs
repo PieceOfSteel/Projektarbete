@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Xml;
-using System.ServiceModel;
-using System.ServiceModel.Description;
-using System.ServiceModel.Web;
-using System.ServiceModel.Syndication;
-using System.Threading.Tasks;
 using MetroFramework.Forms;
 using Projekt_C.Core.Domain;
 using Projekt_C.Core.Utilities;
@@ -19,7 +13,6 @@ namespace Projekt_C
         public Form1()
         {
             InitializeComponent();
-            
             feedTab = new TabPage();
         }
 

@@ -22,11 +22,11 @@ namespace Projekt_C.Core.Domain
         }
 
         public PodcastFeed(int Id, string Name, string Url)
+            : this()
         {
             this.Id = Id;
             this.Name = Name;
             this.Url = Url;
-            PodcastEpisodes = new List<PodcastEpisode>();
         }
 
         public override string GetInfo(string sep = "\t")
